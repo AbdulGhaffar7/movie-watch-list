@@ -27,7 +27,7 @@ export const WatchedList = observer(() => {
         header={
           <Row>
             <Col span={12}>
-              <h3>WatchList {<Tag color="magenta">{data.length}</Tag>}</h3>
+              <h3>WatchedList {<Tag color="magenta">{data.length}</Tag>}</h3>
             </Col>
             <Col span={12}>
               <Search
