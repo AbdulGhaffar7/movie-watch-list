@@ -18,7 +18,7 @@ class movieStore {
   addMovie = (movie) => {
     const _movie = {
       ...movie,
-      id: this.movies[this.movies.length - 1] ? this.movies.length + 1 : 1,
+      id: Date.now(),
     };
     this.movies = [...this.movies, _movie];
   };
